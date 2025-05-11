@@ -2,9 +2,9 @@ package org.example.Model;
 
 public class Student {
     private String name;
-    private int dni;
+    private String dni;
 
-    public Student(String name, int dni) {
+    public Student(String name, String dni) {
         this.name = name;
         this.dni = dni;
     }
@@ -13,7 +13,7 @@ public class Student {
         return name;
     }
 
-    public int getDni() {
+    public String getDni() {
         return dni;
     }
 
